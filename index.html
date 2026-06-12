@@ -301,15 +301,15 @@
     </div>
     <div class="modal-display empty" id="modal-display">0</div>
     <div class="numpad">
-      <button class="num-btn" onclick="numPress(7)">7</button>
-      <button class="num-btn" onclick="numPress(8)">8</button>
-      <button class="num-btn" onclick="numPress(9)">9</button>
-      <button class="num-btn" onclick="numPress(4)">4</button>
-      <button class="num-btn" onclick="numPress(5)">5</button>
-      <button class="num-btn" onclick="numPress(6)">6</button>
       <button class="num-btn" onclick="numPress(1)">1</button>
       <button class="num-btn" onclick="numPress(2)">2</button>
       <button class="num-btn" onclick="numPress(3)">3</button>
+      <button class="num-btn" onclick="numPress(4)">4</button>
+      <button class="num-btn" onclick="numPress(5)">5</button>
+      <button class="num-btn" onclick="numPress(6)">6</button>
+      <button class="num-btn" onclick="numPress(7)">7</button>
+      <button class="num-btn" onclick="numPress(8)">8</button>
+      <button class="num-btn" onclick="numPress(9)">9</button>
       <button class="num-btn btn-cancel" onclick="closeModal()">Annuler</button>
       <button class="num-btn" onclick="numPress(0)">0</button>
       <button class="num-btn btn-del" onclick="numDel()">⌫</button>
@@ -333,9 +333,9 @@ const COLOR_CATS = [
 const SPECIAL_CATS = [
   { id:'rainbow', label:'🎲', color:'#FF6B35', name:'Paire', desc:'Chaque paire (même couleur + même valeur) = 10 pts' },
   { id:'pair',    label:'🥉', color:'#00ACC1', name:'Un, Dos, Tres',       desc:'Additionner les dés montrant 1, 2 ou 3 (peu importe la couleur)' },
-  { id:'five',    label:'5️⃣',  color:'#5C6BC0', name:'5',          desc:'Dé affichant 5' },
-  { id:'four',    label:'4️⃣',  color:'#7B1FA2', name:'4',          desc:'Dé affichant 4' },
-  { id:'three',   label:'3️⃣',  color:'#C62828', name:'3',          desc:'Dé affichant 3' },
+  { id:'five',    label:'⚃',  color:'#5C6BC0', name:'4',          desc:'Dé affichant 4' },
+  { id:'four',    label:'⚄',  color:'#7B1FA2', name:'5',          desc:'Dé affichant 5' },
+  { id:'three',   label:'⚅',  color:'#C62828', name:'6',          desc:'Dé affichant 6' },
   { id:'alldie',  label:'🎊',  color:'#F57F17', name:'Tous les dés', desc:'Tous dans la piscine' },
 ];
 const ALL_CATS = [...COLOR_CATS, ...SPECIAL_CATS];
